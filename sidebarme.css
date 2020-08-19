@@ -1,0 +1,175 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #944977!important;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    background-color: #c55d9d!important;
+    color:rgba(243, 217, 217, 0.973);
+  }
+  .sidenav a:hover::after{
+    color: white;
+  }
+  .openbtn {
+    display:inline-block;
+    font-size: x-large;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 3px;
+    margin-left: -10px;
+    padding-right:5px;
+    background-color: transparent!important;
+    
+  }
+  .openbtn:hover{
+    color: rgb(177, 174, 177);
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .closebtn{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    
+    color: white;
+    display: block;
+    transition: 0.1s;
+    cursor: pointer;
+  }
+  .closebtn:hover{
+    background-color: transparent;
+  }
+  .closebtnDash
+  {
+    position: absolute;
+    top: 0;
+    font-size:20px;
+    left:0px;
+    margin-top:12px; 
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-family: 'Lemonada', cursive;
+    /* color: rgb(136, 192, 199); */
+    color: linear-gradient(90deg, rgba(63,117,251,0.9528186274509804) 0%, rgba(252,70,199,1) 100%);
+    transition: 0.1s;
+    cursor: pointer;
+  }
+  .userName{
+    font-size: 2.0rem;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    font-family: 'Changa', sans-serif;
+  }
+  .title{
+    font-family: 'Recursive', sans-serif;
+  }
+  .submenuDash , .submenuUI , .submenuCompo , .submenuSetting{
+    display:none;
+    background-color: inherit;
+    color:white;
+  }
+  .submenuDash , .submenuUI , .submenuCompo , .submenuSetting:hover{
+    color:black;
+    cursor: pointer;
+  }
+ 
+  .profileImg{
+    height:40px;
+    width:40px;
+    border-radius: 50px;
+    /* border:2px solid lightblue; */
+    
+   }
+   @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .dashboard{
+      font-size: larger; 
+      padding-left:5px;
+      margin-top: 0rem !important;
+      margin-left:10px;
+      margin-bottom:5px;
+      
+    }
+    #conatiner-fluid{
+        width:100%;
+      }
+      .dashboard{
+        font-size: x-large;
+        padding-left:10px;
+      }
+      
+}
+@media (min-width: 768px){
+
+    .navbar {
+      border-radius:0px!important;
+    }
+    
+    }
+    
+    .dashboard{
+      font-family: 'Lemonada', cursive;
+      display: inline-block;
+      font-weight: bold;
+      color:white;
+      
+    }
+    
+    
+    /* testimonilas */
+    .fa {
+      display: inline-block;
+      color:white;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: x-large;
+      text-rendering: auto;
+      
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .fa-lg:hover{
+    font-size: 2.4rem;
+    color:rgb(240, 210, 210);
+    transition: .3s;
+    }
+    .header{
+      padding-top: 70px;
+     }
+     .navbar{
+       position: fixed !important;
+       /* position: relative; */
+       width:100%;
+       top:0 !important;
+       /* left:0; */
+       right:0;
+       border-radius: none;
+       height: 50px;
+       z-index:9;
+     }
+         
